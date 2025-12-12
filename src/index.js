@@ -16,25 +16,31 @@ import {greeting} from "./greeting.js";
 loadHome();
 
 
-// home tab
+// home 
 const homeButton = document.querySelector(".homeBtn");
 homeButton.addEventListener("click", () => {
     clearContent();
     loadHome();
 });
 
-//menu tab
+//menu 
 const menuButton = document.querySelector(".menuBtn");
 menuButton.addEventListener("click", () => {
     clearContent();
     loadMenu();
 });
 
-
+//contact 
+const contactButton = document.querySelector(".contactBtn");
+contactButton.addEventListener("click", () => {
+    clearContent();
+    loadContact();
+});
 
 function clearContent() {
     const contentBox = document.querySelector(".content");
     contentBox.replaceChildren();
     return;
-}
+};
+
 

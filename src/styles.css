@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: rebeccapurple;
+  background-color: rgb(134, 123, 145);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -89,4 +89,21 @@ nav button {
 
 .blurb {
     padding-top: 15px;
+}
+
+.menu-header {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.menu-header {
+    color: blue;
+}
+.dish-list {
+    list-style-type: none;
+}
+.dish-list-item {
+    color: red;
+    font-size: 30px;
+    padding: 10px;
 }
